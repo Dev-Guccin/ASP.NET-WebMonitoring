@@ -42,6 +42,24 @@ namespace project.MasterPage
         protected global::System.Web.UI.WebControls.Label lblTitle;
 
         /// <summary>
+        /// txtpass 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox txtpass;
+
+        /// <summary>
+        /// lblDisp 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblDisp;
+
+        /// <summary>
         /// txtContents 컨트롤입니다.
         /// </summary>
         /// <remarks>
@@ -49,6 +67,24 @@ namespace project.MasterPage
         /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox txtContents;
+
+        /// <summary>
+        /// btnModify 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnModify;
+
+        /// <summary>
+        /// btnRemove 컨트롤입니다.
+        /// </summary>
+        /// <remarks>
+        /// 자동 생성 필드입니다.
+        /// 수정하려면 디자이너 파일에서 코드 숨김 파일로 필드 선언을 이동하세요.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button btnRemove;
 
         /// <summary>
         /// btnList 컨트롤입니다.

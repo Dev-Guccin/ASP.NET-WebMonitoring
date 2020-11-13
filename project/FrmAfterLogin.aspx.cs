@@ -5,18 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace project.MasterPage
+namespace project
 {
-    public partial class SiteAS : System.Web.UI.Page
+    public partial class FrmAfterLogin : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-        }
-
-        protected void btnWrite_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("FrmASWrite.aspx");
         }
     }
 }

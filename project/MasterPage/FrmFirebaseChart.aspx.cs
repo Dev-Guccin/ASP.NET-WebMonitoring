@@ -1,4 +1,5 @@
 ﻿using FirebaseSharp.Portable;
+using FirebaseSharp.Portable.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -21,7 +22,7 @@ namespace project.MasterPage
             {
                 FirebaseApp app = new FirebaseApp(new Uri("https://pipi-39a83.firebaseio.com/") /*, <auth token> */);
                 var scoresRef = app.Child("LogList");
-                scoresRef.OrderByKey().Once("value", (snapshot, child, context) =>
+                scoresRef.OrderByKey().On("value", (snapshot, child, context) =>
                 {
                     x.Clear();
                     y.Clear();

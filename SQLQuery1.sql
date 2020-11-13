@@ -11,3 +11,13 @@ readcnt				int
 
 select * from tblBrd
 
+create table tblUser(
+id	char(30),
+salt int,
+passwd char(256),
+name char(20),
+deviceid char(20)
+)
+
+drop table tblUser;
+select * from tblUser

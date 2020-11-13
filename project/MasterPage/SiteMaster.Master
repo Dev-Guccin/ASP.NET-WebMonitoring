@@ -50,7 +50,8 @@
                 <tr>
                     <td style="display: flex">
                         <div class="alert alert-dismissible alert-secondary" style="width: 150px; height: 100%; margin-top: 10px; text-align: start">
-                            <p class="text-success">Users</p>
+                            <asp:Label CssClass="btn btn-outline-success" ID="lblUsername" runat="server" Text=""></asp:Label><br />
+
                             <asp:Label ID="lblDisp" runat="server" Font-Size="X-Small"></asp:Label>
                         </div>
                     </td>

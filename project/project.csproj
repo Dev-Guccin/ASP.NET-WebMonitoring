@@ -301,12 +301,15 @@
     <Content Include="css\bootstrap-responsive.min.css" />
     <Content Include="css\bootstrap.css" />
     <Content Include="css\bootstrap.min.css" />
-    <Content Include="FrmChart.aspx" />
+    <Content Include="Default.aspx" />
+    <Content Include="FrmAfterLogin.aspx" />
+    <Content Include="FrmLogin.aspx" />
     <Content Include="FrmPost.aspx" />
     <Content Include="Global.asax" />
     <Content Include="js\bootstrap.js" />
     <Content Include="js\bootstrap.min.js" />
     <Content Include="Main.aspx" />
+    <Content Include="MasterPage\FrmASModify.aspx" />
     <Content Include="MasterPage\FrmASView.aspx" />
     <Content Include="MasterPage\FrmASWrite.aspx" />
     <Content Include="MasterPage\FrmFirebaseChart.aspx" />
@@ -413,16 +416,30 @@
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="SignUp.aspx" />
     <Content Include="StyleSheet1.css" />
-    <Content Include="TestFirebase.aspx" />
+    <Content Include="TestRegister.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FrmChart.aspx.cs">
-      <DependentUpon>FrmChart.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="FrmChart.aspx.designer.cs">
-      <DependentUpon>FrmChart.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmAfterLogin.aspx.cs">
+      <DependentUpon>FrmAfterLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmAfterLogin.aspx.designer.cs">
+      <DependentUpon>FrmAfterLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FrmLogin.aspx.designer.cs">
+      <DependentUpon>FrmLogin.aspx</DependentUpon>
     </Compile>
     <Compile Include="FrmPost.aspx.cs">
       <DependentUpon>FrmPost.aspx</DependentUpon>
@@ -440,6 +457,13 @@
     </Compile>
     <Compile Include="Main.aspx.designer.cs">
       <DependentUpon>Main.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\FrmASModify.aspx.cs">
+      <DependentUpon>FrmASModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\FrmASModify.aspx.designer.cs">
+      <DependentUpon>FrmASModify.aspx</DependentUpon>
     </Compile>
     <Compile Include="MasterPage\FrmASView.aspx.cs">
       <DependentUpon>FrmASView.aspx</DependentUpon>
@@ -491,12 +515,12 @@
     <Compile Include="SignUp.aspx.designer.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TestFirebase.aspx.cs">
-      <DependentUpon>TestFirebase.aspx</DependentUpon>
+    <Compile Include="TestRegister.aspx.cs">
+      <DependentUpon>TestRegister.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TestFirebase.aspx.designer.cs">
-      <DependentUpon>TestFirebase.aspx</DependentUpon>
+    <Compile Include="TestRegister.aspx.designer.cs">
+      <DependentUpon>TestRegister.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
