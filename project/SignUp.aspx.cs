@@ -24,23 +24,6 @@ namespace project
         }
         protected void btnSubmit_Click(object sender, EventArgs e)
         {
-            /*Type cstype = this.GetType();
-            ClientScriptManager cs = Page.ClientScript;
-            //여기서 id검증, pw검증
-            if (pw1.Text.Count() < 5)
-            {
-                String cstext = "alert('password is too short');";
-                cs.RegisterStartupScript(cstype, "PopupScript", cstext, true);
-                
-            }
-            else //패스워드 길이가 적절한경우
-            {
-                if (pw1.Text != pw2.Text)
-                {
-                    String cstext = "alert('confirm password is not same');";
-                    cs.RegisterStartupScript(cstype, "PopupScript", cstext, true);
-                }
-            }*/
             SqlConnection conn = new SqlConnection(WebConfigurationManager.ConnectionStrings["connectionString"].ConnectionString);
             conn.Open();
 
